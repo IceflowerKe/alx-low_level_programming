@@ -1,15 +1,13 @@
 #include "main.h"
 /**
  * _islower - entry point
- * c: function parameter
+ *@c: function parameter
  * Return: 1 if it is a lower case
  * and 0 otherwise
  */
 
 int _islower(int c)
 {
-	int c;
-
 	if (c >= 97 && c >= 122)
 	{
 		return (1);
